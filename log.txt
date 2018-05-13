@@ -146,3 +146,15 @@ Stack: Error: apiRequest: Invalid API Key
     at Route.dispatch (C:\Users\Sebastian\Documents\GitHub\TrailingStopLoss\node_modules\express\lib\router\route.js:112:3)
     at Layer.handle [as handle_request] (C:\Users\Sebastian\Documents\GitHub\TrailingStopLoss\node_modules\express\lib\router\layer.js:95:5)
     at C:\Users\Sebastian\Documents\GitHub\TrailingStopLoss\node_modules\express\lib\router\index.js:281:22
+Error: Error: apiRequest: Invalid API Key
+Stack: Error: apiRequest: Invalid API Key
+    at signedRequest (/Users/bulldesai/Desktop/trailingstoploss3/node_modules/node-binance-api/node-binance-api.js:189:38)
+    at Object.cancel (/Users/bulldesai/Desktop/trailingstoploss3/node_modules/node-binance-api/node-binance-api.js:1057:13)
+    at cancelOrder (/Users/bulldesai/Desktop/trailingstoploss3/server/binanceCalls.js:263:11)
+    at Object.stopTrailing (/Users/bulldesai/Desktop/trailingstoploss3/server/binanceCalls.js:324:3)
+    at /Users/bulldesai/Desktop/trailingstoploss3/app.js:51:19
+    at Layer.handle [as handle_request] (/Users/bulldesai/Desktop/trailingstoploss3/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/bulldesai/Desktop/trailingstoploss3/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/bulldesai/Desktop/trailingstoploss3/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/bulldesai/Desktop/trailingstoploss3/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/bulldesai/Desktop/trailingstoploss3/node_modules/express/lib/router/index.js:281:22
